@@ -6,4 +6,8 @@ public class Engine {
         name = "Engine";
         secondsToBuildOne = 7;
     }
+
+    public int getSecondsToBuildOne(){
+        return secondsToBuildOne;
+    }
 }

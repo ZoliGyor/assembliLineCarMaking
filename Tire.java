@@ -6,4 +6,8 @@ public class Tire {
         name = "Tire";
         secondsToBuildOne = 2;
     }
+
+    public int getSecondsToBuildOne(){
+        return secondsToBuildOne;
+    }
 }

@@ -6,4 +6,8 @@ public class Seat {
         name = "Seat";
         secondsToBuildOne = 3;
     }
+
+    public int getSecondsToBuildOne(){
+        return secondsToBuildOne;
+    }
 }

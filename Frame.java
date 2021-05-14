@@ -6,4 +6,8 @@ public class Frame {
         name = "Frame";
         secondsToBuildOne = 5;
     }
+
+    public int getSecondsToBuildOne(){
+        return secondsToBuildOne;
+    }
 }
